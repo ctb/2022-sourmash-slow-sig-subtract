@@ -1,0 +1,2 @@
+sample_name	mtx_study_accession	mtx_run_accession	mgx_study_accession	mgx_run_accession	sample_type
+C_2_1	PRJNA406858	SRR6032600	PRJNA406858	SRR6032602	activated_sludge
