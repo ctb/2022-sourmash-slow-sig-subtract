@@ -65,7 +65,7 @@ rule sig_subtract_in_python_api:
     
             # re-establish hash abundances from mtx sig
             # re-read in mtx sig just in case abundances were removed in place
-            abund_sig = sourmash.load_one_signature(mtx_sig_path, ksize=ksize, select_moltype='DNA')
+            abund_sig = sourmash.load_one_signature(mtx_sigfile, ksize=ksize, select_moltype='DNA')
             mtx_subtract_mh = mtx_subtract_mh.inflate(abund_sig.minhash)
             
             # create a new sig object that can be written to file
